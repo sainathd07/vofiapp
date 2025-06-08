@@ -1,11 +1,6 @@
-'use client';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
-import WaitlistModal from "./components/WaitlistModal";
-import { createContext, useState } from "react";
-
-export const WaitlistModalContext = createContext({ open: () => {} });
+import ClientLayout from "./ClientLayout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,17 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export default function RootLayout({ children }) {
-  const [modalOpen, setModalOpen] = useState(false);
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <WaitlistModalContext.Provider value={{ open: () => setModalOpen(true) }}>
-          <Navbar onWaitlistClick={() => setModalOpen(true)} />
-          <WaitlistModal open={modalOpen} onClose={() => setModalOpen(false)} />
-          <div className="pt-20">{children}</div>
-        </WaitlistModalContext.Provider>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <ClientLayout>
+          {children}
+        </ClientLayout>
       </body>
     </html>
   );

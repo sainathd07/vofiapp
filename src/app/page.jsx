@@ -1,7 +1,11 @@
 'use client';
 import Image from "next/image";
 import { useContext } from "react";
-import { WaitlistModalContext } from "./layout";
+import { WaitlistModalContext } from "./ClientLayout";
+import PricingSection from "./components/PricingSection";
+import HowItWorksSection from "./components/HowItWorksSection";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const { open } = useContext(WaitlistModalContext);
@@ -96,6 +100,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* How It Works Section */}
+      <HowItWorksSection />
+
+      {/* Pricing Section */}
+      <PricingSection />
+
+      {/* Contact Section */}
+      <ContactSection />
+
       {/* Waitlist Section */}
       <section id="waitlist" className="max-w-screen-sm mx-auto px-4 py-12 md:py-20">
         <div className="rounded-2xl bg-white/40 backdrop-blur-xl border border-green-200 shadow-2xl p-10 flex flex-col items-center">
@@ -106,6 +119,9 @@ export default function Home() {
           </form>
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
