@@ -35,7 +35,7 @@ export default function RefundPolicyPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">NO REFUND POLICY</h2>
                 <p className="mb-4 font-semibold text-lg">
-                  Voca does not offer refunds for any purchases made through our application, website, or any other platform where our services are available.
+                  Vofi does not offer refunds for any purchases made through our application, website, or any other platform where our services are available.
                 </p>
                 <p className="mb-4">
                   All sales are final. Once a purchase is made, whether it's a monthly subscription, annual subscription, or lifetime access, no refunds will be provided under any circumstances, including but not limited to:
@@ -84,10 +84,10 @@ export default function RefundPolicyPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">PAYMENT DISPUTES</h2>
                 <p className="mb-4 font-semibold">
-                  Initiating chargebacks or payment disputes for legitimate charges from Voca is a violation of this policy and our Terms of Service.
+                  Initiating chargebacks or payment disputes for legitimate charges from Vofi is a violation of this policy and our Terms of Service.
                 </p>
                 <p>
-                  If you have concerns about a charge from Voca, please contact our support team directly before disputing the charge with your payment provider. Unauthorized chargebacks may result in termination of your account and access to our services.
+                  If you have concerns about a charge from Vofi, please contact our support team directly before disputing the charge with your payment provider. Unauthorized chargebacks may result in termination of your account and access to our services.
                 </p>
               </section>
               
@@ -103,7 +103,7 @@ export default function RefundPolicyPage() {
                 <p>
                   If you have any questions about our No Refund Policy, please contact our support team at:
                   <br />
-                  <a href="mailto:support@vocaapp.com" className="text-green-700 hover:underline font-medium">support@vocaapp.com</a>
+                  <a href="mailto:support@vofiapp.com" className="text-green-700 hover:underline font-medium">support@vofiapp.com</a>
                 </p>
               </section>
             </div>

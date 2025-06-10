@@ -113,7 +113,7 @@ export default function Home() {
       <section id="waitlist" className="max-w-screen-sm mx-auto px-4 py-12 md:py-20">
         <div className="rounded-2xl bg-white/40 backdrop-blur-xl border border-green-200 shadow-2xl p-10 flex flex-col items-center">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-4 text-center">Join the Waitlist</h2>
-          <p className="text-gray-700 mb-6 text-center font-medium">Be the first to try Voca! <br/>Enter your email in the popup and we'll notify you when we launch.</p>
+          <p className="text-gray-700 mb-6 text-center font-medium">Be the first to try Vofi! <br/>Enter your email in the popup and we'll notify you when we launch.</p>
           <form className="w-full" onSubmit={e => {e.preventDefault(); open();}}>
             <button type="submit" className="w-full bg-gradient-to-r from-green-600 to-green-400 text-white px-6 py-4 rounded-full font-bold shadow hover:scale-105 hover:from-green-700 hover:to-green-500 transition-all duration-200 text-lg">Notify Me</button>
           </form>

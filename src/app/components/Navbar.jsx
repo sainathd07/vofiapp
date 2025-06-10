@@ -15,7 +15,7 @@ export default function Navbar({ onWaitlistClick }) {
       <div className="max-w-screen-xl mx-auto mt-4 flex items-center justify-between py-3 px-4 md:px-8 transition-all duration-300">
         {/* Logo */}
         <div className="flex items-center gap-2 font-bold text-3xl text-green-700 cursor-pointer hover:scale-105 transition-transform">
-          <span className="bg-gradient-to-r from-green-600 to-green-400 text-white rounded-xl px-3 py-1 text-xl shadow hover:shadow-lg transition">VOCA</span>
+          <span className="bg-gradient-to-r from-green-600 to-green-400 text-white rounded-xl px-3 py-1 text-xl shadow hover:shadow-lg transition">VOFI</span>
           <span className="hidden sm:inline text-gray-800 font-semibold tracking-wide">budgeting</span>
         </div>
         {/* Desktop Nav */}

@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 font-bold text-3xl text-white mb-4">
-              <span className="bg-white text-green-700 rounded-xl px-3 py-1 text-xl shadow">VOCA</span>
+              <span className="bg-white text-green-700 rounded-xl px-3 py-1 text-xl shadow">VOFI</span>
               <span className="tracking-wide">budgeting</span>
             </div>
             <p className="text-green-100 mb-6">
@@ -72,11 +72,11 @@ export default function Footer() {
         
         <div className="border-t border-green-600 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-green-100 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Voca. All rights reserved.
+            &copy; {new Date().getFullYear()} Vofi. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href="mailto:support@vocaapp.com" className="text-green-100 hover:text-white text-sm transition-colors">
-              support@vocaapp.com
+            <a href="mailto:support@vofiapp.com" className="text-green-100 hover:text-white text-sm transition-colors">
+              support@vofiapp.com
             </a>
           </div>
         </div>

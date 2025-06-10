@@ -35,7 +35,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">INTRODUCTION</h2>
                 <p className="mb-4">
-                  This Privacy Policy explains how Voca ("we", "us", or "our") collects, uses, shares, and protects personal information obtained from users of the Voca application, website, and related services (collectively, the "Service"). Your privacy is important to us, and we are committed to protecting your personal information.
+                  This Privacy Policy explains how Vofi ("we", "us", or "our") collects, uses, shares, and protects personal information obtained from users of the Vofi application, website, and related services (collectively, the "Service"). Your privacy is important to us, and we are committed to protecting your personal information.
                 </p>
                 <p>
                   By using our Service, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, do not use our Service.
@@ -172,7 +172,7 @@ export default function PrivacyPage() {
                 <p>
                   If you have any questions or concerns about our Privacy Policy or our data practices, please contact us at:
                   <br />
-                  <a href="mailto:privacy@vocaapp.com" className="text-green-700 hover:underline font-medium">privacy@vocaapp.com</a>
+                  <a href="mailto:privacy@vofiapp.com" className="text-green-700 hover:underline font-medium">privacy@vofiapp.com</a>
                 </p>
               </section>
             </div>

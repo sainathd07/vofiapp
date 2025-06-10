@@ -82,7 +82,7 @@ export default function WaitlistModal({ open, onClose }) {
             frameBorder="0"
             marginHeight="0"
             marginWidth="0"
-            title="Voca Waitlist Form"
+            title="Vofi Waitlist Form"
             onLoad={() => setIframeLoaded(true)}
             style={{
               maxWidth: '100%',

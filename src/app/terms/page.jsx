@@ -35,7 +35,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">AGREEMENT TO TERMS</h2>
                 <p className="mb-4">
-                  These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Voca ("Company", "we", "us", or "our"), concerning your access to and use of the Voca application as well as any other media form, media channel, mobile website, or mobile application related, linked, or otherwise connected thereto (collectively, the "Site"). By accessing the Site, you agree that you have read, understood, and agree to be bound by all of these Terms of Use. <span className="font-semibold">IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND MUST DISCONTINUE USE IMMEDIATELY.</span>
+                  These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Vofi ("Company", "we", "us", or "our"), concerning your access to and use of the Vofi application as well as any other media form, media channel, mobile website, or mobile application related, linked, or otherwise connected thereto (collectively, the "Site"). By accessing the Site, you agree that you have read, understood, and agree to be bound by all of these Terms of Use. <span className="font-semibold">IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND MUST DISCONTINUE USE IMMEDIATELY.</span>
                 </p>
                 <p className="mb-4">
                   Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Use at any time and for any reason. We will alert you about any changes by updating the "Last updated" date of these Terms of Use. It is your responsibility to periodically review these Terms of Use to stay informed of updates. Your continued use of the Site signifies acceptance of any revised Terms of Use.
@@ -172,7 +172,7 @@ export default function TermsPage() {
                 <p>
                   If you have questions or concerns about these Terms, please contact us at:
                   <br />
-                  <a href="mailto:support@vocaapp.com" className="text-green-700 hover:underline font-medium">support@vocaapp.com</a>
+                  <a href="mailto:support@vofiapp.com" className="text-green-700 hover:underline font-medium">support@vofiapp.com</a>
                 </p>
               </section>
             </div>
